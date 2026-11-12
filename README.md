@@ -1,22 +1,25 @@
-# ♠️ Week08 Bootcamp2019a Project: Matching Card Game
+# Matching Card Game
 
-### Goal: Make a 10 card memory game - users must be able to select two cards and check if they are a match. If they are a match, they stay flipped. If not, they flip back over. Game is done when all cards are matched and flipped over. Example: http://www.fruit-burst.co.uk/fun-and-games/pairs-game 
+A browser-based memory game exercise. The goal is to flip two cards at a time, keep matching pairs visible, and finish when all pairs have been found.
 
-### How to submit your code for review:
+## Technology
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+HTML, CSS, JavaScript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Run locally
+
+Clone the repository, run `git switch answer`, and open `index.html` in a browser. No dependency installation is needed.
+
+## Solution code
+
+The completed implementation is on the `answer` branch. Switch to it with `git switch answer` after cloning.
+
+[View the solution branch on GitHub](https://github.com/Nlewi-glitch089/matching-card-bootcamp/tree/answer).
+
+## Project context
+
+This repository began as a Resilient Coders / bootcamp coding exercise. The original assignment prompt is preserved in the repository history; this README describes the implementation branch so visitors can understand what the code does and how to try it.
+
+## Hosting
+
+These are small learning exercises, not currently documented as live hosted applications. They can be run locally using the instructions above. A static project could be published with GitHub Pages if a public demo is useful; the Node server projects need a Node-capable host.
